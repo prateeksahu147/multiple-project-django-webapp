@@ -110,3 +110,11 @@ STATIC_URL = '/static/'
 import os
 PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__)) # for deployment in heroku
 #STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage' # for deployment in heroku wsgi.py
+
+
+STATIC_ROOT= os.path.join(BASE_DIR, 'staticfiles') #for heroku deployment
+
+
+
+
+
