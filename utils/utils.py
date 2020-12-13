@@ -56,7 +56,7 @@ def load_all_pickel():
 
 
 def predict_toxicity(text):
-  vect_text=tfidf.transform(list(text))
+  vect_text=tfidf.transform([text])
   toxic_pred=round(toxic_clf.predict_proba(vect_text)[0][1],2)
   severe_pred= round(severe_clf.predict_proba(vect_text)[0][1], 2)
   obscene_pred=round(obscene_clf.predict_proba(vect_text)[0][1], 2)
