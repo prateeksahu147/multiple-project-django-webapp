@@ -14,7 +14,7 @@ SECRET_KEY = 'rf8d!$7(=)sw%54=hajs)6ur&vo!yy=&$3k)=tyuym)7g8t0!n'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['neuralroots.herokuapp.com', '127.0.0.1']
+ALLOWED_HOSTS = ['the-vectors.herokuapp.com/', '127.0.0.1']
 
 
 # Application definition
