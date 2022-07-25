@@ -14,5 +14,5 @@ from whitenoise.django import DjangoWhiteNoise # for heroku
 
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'root.settings')
 
-#application = get_wsgi_application()
+application = get_wsgi_application()
 application = DjangoWhiteNoise(application) # for deployment in heroku
